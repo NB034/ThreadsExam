@@ -1,0 +1,13 @@
+﻿<Window x:Class="TxtFilesStatistic.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TxtFilesStatistic"
+        mc:Ignorable="d"
+        Title="Text files statistic" Height="100" Width="420">
+    <StackPanel Orientation="Horizontal">
+        <Button Margin="10" Width="180" Content="Show statistic on the screen" Click="ShowClick"/>
+        <Button Margin="10" Width="180" Content="Save statistic to the file" Click="SaveClick"/>
+    </StackPanel>
+</Window>
